@@ -10,4 +10,4 @@ fi
 source ~/.secrets/env.sh
 
 # Run the curl command with the provided file path
-curl -X POST -F "file=@$1" $SWEEP_SERVER:$SWEEP_PORT/upload_config
+curl -X POST -F "file=@$1" $SWEEP_HOST:$SWEEP_PORT/upload_config
